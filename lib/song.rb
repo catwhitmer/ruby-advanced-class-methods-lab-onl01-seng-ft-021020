@@ -54,7 +54,7 @@ class Song
     song.name = song_array[1].chomp(".mp3")
   
 
-    song.artist_name = song_array[0]
+    song.artist_name = song_arraysplit(" - ")[0]
     song
   end
   
